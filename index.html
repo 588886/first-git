@@ -7,10 +7,9 @@
     <title>2주차 사전수업 과제</title>
     <style>
         /*현재 화면을 가로로 변경하는 스타일작성*/
-        
         .body{
         text-align: center;}
-        .box {
+        .pic {
         margin: 30px 0 0 0;
         }
         .text {
@@ -20,16 +19,34 @@
         
         h1 {color: red;}
         .sol {
-            border: 1px solid black;
-            width: 600px;
+            border: 2px inset black;
+            border-radius: 8px;
+            width: 30%;
+            height: 600px;
             padding: 10px;
             display: inline-block;
+            background-color: powderblue;
+            margin: 5px;
+            box-sizing: border-box;
         }
-        div.ex11{
-            width: 100%;
-            border: 0;
+        .ex11{
+            width: 1200px;
             text-align: center;
+            border: 1px solid black;
+            box-sizing: border-box;
         }
+        img{
+            width: 300px;
+            height: 225px;
+            }
+        .sol2 {
+            border: 2px; solid: black;
+            border-radius: 8px;
+            width: 320px;
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+            box-sizing: border-box;}
     </style>
 </head>
 <body>
@@ -44,37 +61,118 @@
 <!--맛집들-->
     
     <div class="ex11">
+        
         <div class="sol">
-            <div class="box">
-            <img src="계림닭도리탕.jpg" alt="마늘닭도리탕" width="600" height="450">
-        </div>
-        <div class="text">
-            <div class="txet head">
-            <p><충무로 닭도리탕 ></p>
+            <div class="pic">
+                <img src="계림닭도리탕.jpg" alt="마늘닭도리탕" >
             </div>
-            <p></p>
-        </div>
+            
+            <div class="text">
+                <div class="text head">
+                    <h3><계림></h3>
+                </div>
+                <p>마늘이 많이 들어간 닭도리탕</p>
+                <h4>주소</h4>
+                <P>서울특별시 종로구 종로3가 167</P>
+                <h4>메뉴(2023)</h4>
+                <p>소:28,000원</p>
+                <p>중:40.000원</p>
+                <p>대:53.000원</p>
+            </div> 
         </div>
        
         <div class="sol">
-        <div class="box">
-            <img src="우래옥냉면.jpg" alt="평양냉면" width="600" height="450">
-        </div>
-        <div class="text">
-        <평양냉면의 성지>
-        </div>
+            <div class="pic">
+                <img src="우래옥냉면.jpg" alt="평양냉면" >
+            </div>
+
+            <div class="text">
+                <div class="text head">
+                    <h3><우래옥></h3>
+                </div>
+                <p>평양냉면의 성지</p>
+                <h4>주소</h4>
+                <p>서울 중구 창경궁로 62-29</p>
+                <h4>메뉴(2023)</h4>
+                <p>냉면:16,000원</p>
+                <p>불고기:37.000원</p>
+            </div>
         </div>
 
         <div class="sol">
-        <div class="box">
-            <img src="godenpizza.jpg" alt="고든램지피자" width="600" height="450">
+            <div class="pic">
+                <img src="godenpizza.jpg" alt="고든램지피자" >
+            </div>
+        
+            <div class="text">
+                <div class="text heal">
+                    <h3><고든램지 스트리트 피자></h3>
+                </div>
+                <p>고든램지의 피자를 <br>
+                무한리필로 즐길 수 있는 곳</p>
+                <h4>주소</h4>
+                <p>서울 성동구 왕십리로 83-21 디타워 서울포레스트 B1</p>
+                <h4>메뉴(2023)</h4>
+                <p>바텀리스:29,800원</p>
+            </div>
         </div>
-        <div class="text">
-        <고든램지의 피자 무한리필가계>
-        </div>
-        </div>
-        </div>
+    </div>
 <!--맛집소개끝-->
+
+<div class="sol2">
+    <div class="pic">
+        <img src="계림닭도리탕.jpg" alt="마늘닭도리탕" >
+    </div>
+    
+    <div class="text">
+        <div class="text head">
+            <h3><계림></h3>
+        </div>
+        <p>마늘이 많이 들어간 닭도리탕</p>
+        <h4>주소</h4>
+        <P>서울특별시 종로구 종로3가 167</P>
+        <h4>메뉴(2023)</h4>
+        <p>소:28,000원</p>
+        <p>중:40.000원</p>
+        <p>대:53.000원</p>
+    </div> 
+</div>
+
+<div class="sol2">
+    <div class="pic">
+        <img src="우래옥냉면.jpg" alt="평양냉면" >
+    </div>
+
+    <div class="text">
+        <div class="text head">
+            <h3><우래옥></h3>
+        </div>
+        <p>평양냉면의 성지</p>
+        <h4>주소</h4>
+        <p>서울 중구 창경궁로 62-29</p>
+        <h4>메뉴(2023)</h4>
+        <p>냉면:16,000원</p>
+        <p>불고기:37.000원</p>
+    </div>
+</div>
+
+<div class="sol2">
+    <div class="pic">
+        <img src="godenpizza.jpg" alt="고든램지피자" >
+    </div>
+
+    <div class="text">
+        <div class="text heal">
+            <h3><고든램지 스트리트 피자></h3>
+        </div>
+        <p>고든램지의 피자를 <br>
+        무한리필로 즐길 수 있는 곳</p>
+        <h4>주소</h4>
+        <p>서울 성동구 왕십리로 83-21 디타워 서울포레스트 B1</p>
+        <h4>메뉴(2023)</h4>
+        <p>바텀리스:29,800원</p>
+    </div>
+</div>
    
 </body>
 </html>
