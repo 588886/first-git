@@ -32,20 +32,28 @@
             margin: 5px 15px;
             box-sizing: border-box;
             }
-        
         .text {
-        margin: 10px;
+            margin: 10px;
+            }
+        .texthead{
+            margin-bottom: 0;
+            padding-bottom: 0;
+            font-size: 150%;
+            font-weight: bold;
             }
         .adress{
             font-size: 120%;
             font-weight: bold;
+            border-bottom: 1px solid;
+            display: inline-block;
+            margin: 5px;
             }    
         img{
             width: 100%;
             border-radius: 8px;
             }
 
-        h2{
+        .title{
             font-size: 3em;
             margin-top: 20px;
             margin-bottom: 20px;

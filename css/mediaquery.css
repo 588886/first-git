@@ -1,10 +1,16 @@
 @media screen and (max-width: 480px){
-    body {
-        background-color: rgb(196, 220, 192);
-    }
-    .text{
-    color: black(98, 201, 153);
-}
+    body{
+        background-image: url("구름.gif")
+        }
+    .head{
+        font-size: 100%;
+        color: rgb(22, 22, 22);
+        font-family: cursive;
+        }
+    .title{
+        font-size: 200%;
+        font-family: 'Times New Roman', Times, serif;
+        }
     .ex {
         display: flex;
         align-items: center;
@@ -12,5 +18,8 @@
         flex-direction: column;
         width: 100%;
     }
+    .sol{
+        margin-bottom: 10px;
+        }
 
 }
