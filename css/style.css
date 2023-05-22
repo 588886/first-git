@@ -36,7 +36,10 @@
         .text {
         margin: 10px;
             }
-
+        .adress{
+            font-size: 120%;
+            font-weight: bold;
+            }    
         img{
             width: 100%;
             border-radius: 8px;

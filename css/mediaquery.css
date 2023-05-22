@@ -1,9 +1,10 @@
-@media screen and (max-width: 980px){
+@media screen and (max-width: 480px){
     body {
         background-color: rgb(196, 220, 192);
     }
     .text{
-    color: black(98, 201, 153);}
+    color: black(98, 201, 153);
+}
     .ex {
         display: flex;
         align-items: center;
@@ -11,7 +12,5 @@
         flex-direction: column;
         width: 100%;
     }
-    .adress{
-        border-bottom: 0.1px solid;
-        }
+
 }
