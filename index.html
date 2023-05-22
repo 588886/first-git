@@ -5,56 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="vgit push -u origin mainiewport" content="width=, initial-scale=1.0">
     <title>2주차 사전수업 과제</title>
-    <style>
-        /*현재 화면을 가로로 변경하는 스타일작성*/
-        .head{
-            text-align: center;
-            color: rgb(43, 185, 204);
-            font-size: 2em;
-            }
-        .container{
-            width: 100%;
-            text-align: center;
-            border: 0;
-        }
-        .area {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-        }
-        .ex {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 100%;
-        }
-        .sol {
-            border: 2px inset black;
-            border-radius: 8px;
-            width: 350px;
-            height: 700px;
-            padding: 10px;
-            background-color: powderblue;
-            margin: 5px 15px;
-            box-sizing: border-box;
-            }
-        
-        .text {
-        margin: 10px;
-            }
-
-        img{
-            width: 100%;
-            border-radius: 8px;
-            }
-
-        h2{
-            font-size: 3em;
-            margin-top: 20px;
-            margin-bottom: 20px;
-            }
-    </style>
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/mediaquery.css">
 </head>
 <body>
 <!--맛집들-->
@@ -69,7 +21,7 @@
             <div class="ex">
                 <div class="sol">
                     <div class="pic">
-                        <img src="계림닭도리탕.jpg" alt="마늘닭도리탕" >
+                        <img src="pic/계림닭도리탕.jpg" alt="마늘닭도리탕" >
                     </div>
                     
                     <div class="text">
@@ -77,8 +29,7 @@
                             <h3><계림></h3>
                         </div>
                         <p>마늘이 많이 들어간 닭도리탕</p>
-                        <h4>주소</h4>
-                        <P>서울특별시 종로구 종로3가 167</P>
+                        <P class="adress">서울특별시 종로구 종로3가 167</P>
                         <h4>메뉴(2023)</h4>
                         <p>소:28,000원</p>
                         <p>중:40.000원</p>
@@ -88,7 +39,7 @@
                
                 <div class="sol">
                     <div class="pic">
-                        <img src="우래옥냉면.jpg" alt="평양냉면" >
+                        <img src="pic/우래옥냉면.jpg" alt="평양냉면" >
                     </div>
         
                     <div class="text">
@@ -96,8 +47,7 @@
                             <h3><우래옥></h3>
                         </div>
                         <p>평양냉면의 성지</p>
-                        <h4>주소</h4>
-                        <p>서울 중구 창경궁로 62-29</p>
+                        <p class="adress">서울 중구 창경궁로 62-29</p>
                         <h4>메뉴(2023)</h4>
                         <p>냉면:16,000원</p>
                         <p>불고기:37.000원</p>
@@ -106,7 +56,7 @@
         
                 <div class="sol">
                     <div class="pic">
-                        <img src="godenpizza.jpg" alt="고든램지피자" >
+                        <img src="pic/godenpizza.jpg" alt="고든램지피자" >
                     </div>
                 
                     <div class="text">
@@ -116,7 +66,7 @@
                         <p>고든램지의 피자를 <br>
                         무한리필로 즐길 수 있는 곳</p>
                         <h4>주소</h4>
-                        <p>서울 성동구 왕십리로 83-21<br>디타워 서울포레스트 B1</p>
+                        <p class="adress">서울 성동구 왕십리로 83-21<br>디타워 서울포레스트 B1</p>
                         <h4>메뉴(2023)</h4>
                         <p>바텀리스:29,800원</p>
                     </div>
@@ -133,7 +83,7 @@
         <div class="ex">
             <div class="sol">
                 <div class="pic">
-                    <img src="멸고국수.jpg" alt="멸고국수" >
+                    <img src="pic/멸고국수.jpg" alt="멸고국수" >
                 </div>
                 
                 <div class="text">
@@ -142,7 +92,7 @@
                     </div>
                     <p>멸치육수에<br>고기수육이 들어간 국수</p>
                     <h4>주소</h4>
-                    <P>제주 서귀포시<br>중앙로79번길 4</P>
+                    <P class="adress">제주 서귀포시<br>중앙로79번길 4</P>
                     <h4>메뉴(2023)</h4>
                     <p>멸고국수:9,000원</p>
                     <p>비빔국수:9,000원</p>
@@ -153,7 +103,7 @@
         
             <div class="sol">
                 <div class="pic">
-                    <img src="청귤소바.jpg" alt="청귤소바" >
+                    <img src="pic/청귤소바.jpg" alt="청귤소바" >
                 </div>
 
                 <div class="text">
@@ -162,7 +112,7 @@
                     </div>
                     <p>청귤이 들어간 메밀소바</p>
                     <h4>주소</h4>
-                    <p>제주 제주시 북성로 59 1층</p>
+                    <p class="adress">제주 제주시 북성로 59 1층</p>
                     <h4>메뉴(2023)</h4>
                     <p>청귤소바:9,500원</p>
                     <p>냉소바:8,500원</p>
@@ -173,7 +123,7 @@
 
             <div class="sol">
                 <div class="pic">
-                    <img src="갱이국.jpg" alt="갱이국" >
+                    <img src="pic/갱이국.jpg" alt="갱이국" >
                 </div>
             
                 <div class="text">
@@ -182,7 +132,7 @@
                     </div>
                     <p>향토음식인 갱이국을<br>맛볼 수 있는 곳</p>
                     <h4>주소</h4>
-                    <p>제주 서귀포시 태평로353번길 11</p>
+                    <p class="adress">제주 서귀포시 태평로353번길 11</p>
                     <h4>메뉴(2023)</h4>
                     <p>갱이국:10,000원</p>
                     <p>보말국:10,000원</p>

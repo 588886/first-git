@@ -1,0 +1,17 @@
+@media screen and (max-width: 980px){
+    body {
+        background-color: rgb(196, 220, 192);
+    }
+    .text{
+    color: black(98, 201, 153);}
+    .ex {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .adress{
+        border-bottom: 0.1px solid;
+        }
+}

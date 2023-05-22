@@ -1,0 +1,49 @@
+        /*현재 화면을 가로로 변경하는 스타일작성*/
+
+        .head{
+            text-align: center;
+            color: rgb(43, 185, 204);
+            font-size: 2em;
+            }
+        .container{
+            width: 100%;
+            text-align: center;
+            border: 0;
+        }
+        .area {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .ex {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+        }
+        .sol {
+            border: 2px inset black;
+            border-radius: 8px;
+            width: 350px;
+            height: 700px;
+            padding: 10px;
+            background-color: powderblue;
+            margin: 5px 15px;
+            box-sizing: border-box;
+            }
+        
+        .text {
+        margin: 10px;
+            }
+
+        img{
+            width: 100%;
+            border-radius: 8px;
+            }
+
+        h2{
+            font-size: 3em;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            }
