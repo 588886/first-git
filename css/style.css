@@ -9,19 +9,19 @@
             width: 100%;
             text-align: center;
             border: 0;
-        }
+            }
         .area {
             display: flex;
             align-items: center;
             justify-content: center;
             flex-direction: column;
-        }
+            }
         .ex {
             display: flex;
             align-items: center;
             justify-content: center;
             width: 100%;
-        }
+            }
         .sol {
             border: 2px inset black;
             border-radius: 8px;
@@ -47,12 +47,11 @@
             border-bottom: 1px solid;
             display: inline-block;
             margin: 5px;
-            }    
+            }
         img{
             width: 100%;
             border-radius: 8px;
             }
-
         .title{
             font-size: 3em;
             margin-top: 20px;
@@ -64,11 +63,17 @@
             border-radius: 8px;
             background-color: powderblue;
             }
+        #bt01:hover{
+            background-color: aliceblue;
+            }
         #bt02{
             font-style: inherit;
             padding: 5px;
             border-radius: 8px;
             background-color: powderblue;
+            }
+        #bt02:hover{
+            background-color: aliceblue;
             }
         #bt03{
             font-style: inherit;
@@ -76,21 +81,34 @@
             border-radius: 8px;
             background-color: powderblue;
             }
+        #bt03:hover{
+            background-color: aliceblue;
+            }
         #bt04{
             font-style: inherit;
             padding: 5px;
             border-radius: 8px;
             background-color: powderblue;
             }
+        #bt04:hover{
+            background-color: aliceblue;
+            }    
         #bt05{
             font-style: inherit;
             padding: 5px;
             border-radius: 8px;
             background-color: powderblue;
             }
+        #bt05:hover{
+            background-color: aliceblue;
+            } 
         #bt06{
             font-style: inherit;
             padding: 5px;
             border-radius: 8px;
             background-color: powderblue;
             }
+        #bt06:hover{
+            background-color: aliceblue;
+            }
+        
