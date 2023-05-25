@@ -31,6 +31,7 @@
             background-color: powderblue;
             margin: 5px 15px;
             box-sizing: border-box;
+            position: relative;
             }
         .text {
             margin: 10px;
@@ -62,6 +63,10 @@
             padding: 5px;
             border-radius: 8px;
             background-color: powderblue;
+            position: absolute;
+            bottom: 30px;
+            transform: translateX(-50%);
+            left: 50%;
             }
         #bt01:hover{
             background-color: aliceblue;
@@ -71,6 +76,10 @@
             padding: 5px;
             border-radius: 8px;
             background-color: powderblue;
+            position: absolute;
+            bottom: 30px;
+            transform: translateX(-50%);
+            left: 50%;
             }
         #bt02:hover{
             background-color: aliceblue;
@@ -80,6 +89,10 @@
             padding: 5px;
             border-radius: 8px;
             background-color: powderblue;
+            position: absolute;
+            bottom: 30px;
+            transform: translateX(-50%);
+            left: 50%;
             }
         #bt03:hover{
             background-color: aliceblue;
@@ -89,6 +102,10 @@
             padding: 5px;
             border-radius: 8px;
             background-color: powderblue;
+            position: absolute;
+            bottom: 30px;
+            transform: translateX(-50%);
+            left: 50%;
             }
         #bt04:hover{
             background-color: aliceblue;
@@ -98,6 +115,10 @@
             padding: 5px;
             border-radius: 8px;
             background-color: powderblue;
+            position: absolute;
+            bottom: 30px;
+            transform: translateX(-50%);
+            left: 50%;
             }
         #bt05:hover{
             background-color: aliceblue;
@@ -107,6 +128,10 @@
             padding: 5px;
             border-radius: 8px;
             background-color: powderblue;
+            position: absolute;
+            bottom: 30px;
+            transform: translateX(-50%);
+            left: 50%;
             }
         #bt06:hover{
             background-color: aliceblue;
