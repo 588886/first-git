@@ -1,3 +1,12 @@
+/*(긴주석--> css에서도 사용!)
+    1.자바 스크립트 core[핵심]
+    2.자바 스크립트 문서객체[DOM]
+        *console.log()
+        *alert()
+        .document.write()
+    3.
+*/
+
 document.querySelector("#bt01").addEventListener("click", () => {
     alert("계림 상세페이지로 이동합니다.");
     location.href="https://pcmap.place.naver.com/restaurant/33068253/home?from=map&fromPanelNum=1&ts=1684898063767"
@@ -22,3 +31,14 @@ document.querySelector("#bt06").addEventListener("click", () => {
     alert("맨도롱 해장국 상세페이지로 이동합니다.");
     location.href="https://pcmap.place.naver.com/restaurant/38711101/home?from=map&fromPanelNum=2&ts=1684912135666"
 });
+
+//모달 창 닫기 버튼 스크립트
+let closeBTN = document.querySelector("#closemodal");
+let modalBOX = document.querySelector(".modal")
+//console.log(closeBTN);
+//이 버튼에 클릭을 감지하는 이벤트리스너 등록
+closeBTN.addEventListener("click", () =>{
+    //console.log(modalBOX);
+    modalBOX.style.display = "none";
+});
+document.querySelector("#closemodal");
