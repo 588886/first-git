@@ -138,43 +138,26 @@
             }
         .modal{
             width: 400px;
-            height: 600px;
+            height: 580px;
             border: 5px solid black;
             border-radius: 10px;
             text-align: center;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
             position: absolute;
             left: 50%;
             transform: translateX(-50%);
             background-color: white;
             z-index: 1;
             }
-        #modalhead{
-            font-size: xx-large;
-            font-family: 'Courier New', Courier, monospace;
-            font-weight: bolder;
-            margin: 0;
-            }
-        #modalp{
-            margin: 12px;
-            font-size: x-large;
-            font-family: 'Courier New', Courier, monospace;
-            }
-        #modaltime{
-            margin: 0 0 -5px 0;
-            font-size: x-large;
-            font-family: 'Courier New', Courier, monospace;
-            }
-        .modalpic{
+        .photo{
             width: 100%;
             box-sizing: border-box;
             }
         #closemodal{
             position: absolute;
             left: 50%;
-            bottom: 20px;
+            bottom: 10px;
             transform: translateX(-50%);
+            }
+        #modaltime{
+            margin: 0;
             }
